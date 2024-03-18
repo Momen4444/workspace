@@ -3,6 +3,7 @@ public  class Problems
     public static void main(String[] args)
     {
         //every block has its own problem
+        //#1
         {
             //what is the output?
             if (true)
@@ -11,7 +12,7 @@ public  class Problems
 
 
 
-
+//#2
         {
             //what is the output
             System.out.println('j' + 'a' + 'v' + 'a');
@@ -19,7 +20,7 @@ public  class Problems
 
 
 
-
+//#3
         {
             class Mobile
             {
@@ -41,7 +42,7 @@ public  class Problems
 
 
 
-
+//#4
         {
             class pen
             {
