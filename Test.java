@@ -48,7 +48,7 @@ public static void main(String[] args)
             }
         }
     }
-
+    
     public static int calc(int n,Scanner o,int sum)
     {
         switch (n)
@@ -126,8 +126,11 @@ public static void main(String[] args)
     {
         if (k > 0)
             return k + sum(k - 1);
-        else
+         else if (k < 0)
+            return k + sum(k + 1);
+         else
             return 0;
+
     }
 
     // Method to calculate sum for double inputs
@@ -135,6 +138,8 @@ public static void main(String[] args)
     {
         if (k > 0)
             return (int) Math.round(k) + sum((int) k - 1);
+        else if(k<0)
+            return (int) Math.round(k)+sum((int)k+1);
         else
             return 0;
     }
